@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Tweet Search (AJAX + Twitter Search API)</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+		
+	<h1>Tweet Query (AJAX + Twitter Search API)</h1>
+	
+	<input type="text" id="keyword" val=""/>&nbsp;
+	<button type="button" id="search">search</button>
+	<hr>
+	
+	<!-- display feed -->
+	<div id="feed"></div>
+			
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.8.0.min.js"><\/script>')</script>
+	<script type="text/javascript" src="js/highlight.js"></script>
+	<script type="text/javascript" src="js/tweetSearch.js"></script>
+	
+</body>
+</html>

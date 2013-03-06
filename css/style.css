@@ -1,0 +1,27 @@
+body {
+	margin:20px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.highlight { 
+	background-color: aqua;
+}
+
+.date { 
+	color:#666;
+}
+
+h1 {
+	color:#666;
+	font-size:22px;
+	margin:0 0 7px 0;
+}
+
+p {
+	font-size:16px;
+	margin: 0 0 12px 0;
+}
+
+input {
+	margin:0 0 10px 0;
+}
